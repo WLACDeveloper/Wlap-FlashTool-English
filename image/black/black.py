@@ -1,0 +1,8 @@
+bg = 'white'
+bg1 = '#d1d1d1'
+fg = '#ededed'
+border = 'black'
+text = 'black'
+hover = 'white'
+scrollable = 'white'
+scrollbar_fg = '#080808'
