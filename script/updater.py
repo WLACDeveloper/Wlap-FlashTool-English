@@ -135,7 +135,7 @@ def update_app(status):
                 os.remove(f'{rootfs}/{file_remove}')
 
         try:
-            download(f'https://raw.githubusercontent.com/WLACDeveloper/Wlap-FlashTool/refs/heads/{update.branch}.zip', f'{rootfs}/walmfast.zip')
+            download(f'https://raw.githubusercontent.com/WLACDeveloper/Wlap-FlashTool-English/refs/heads/{update.branch}.zip', f'{rootfs}/walmfast.zip')
             shutil.unpack_archive(f'{rootfs}/walmfast.zip', f'{rootfs}')
             os.remove(f'{rootfs}/walmfast.zip')
 
