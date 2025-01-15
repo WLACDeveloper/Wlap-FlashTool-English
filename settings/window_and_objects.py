@@ -2,7 +2,7 @@ from settings import selector
 
 theme = selector.theme
 
-VERSION = '1.0.1.0 CWTENXM'
+VERSION = '1.0.4.0 CWTENXM'
 CORE_VERSION = '07122024.COM'
 BRANCH = 'main'
 WINDOW_SIZE = '960x540'
