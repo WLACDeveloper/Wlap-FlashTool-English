@@ -2,7 +2,7 @@ import platform
 import os
 import shutil
 import getpass
-from settings import window_and_objects as winaobj
+from Userdata import window_and_objects as winaobj
 
 rootfs = os.getcwd()
 

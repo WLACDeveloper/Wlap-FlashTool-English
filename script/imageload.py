@@ -1,5 +1,5 @@
 from PIL.ImageTk import PhotoImage
-from settings import window_and_objects as winaobj
+from Userdata import window_and_objects as winaobj
 
 background = PhotoImage(file=winaobj.BACKGROUND)
 frame = PhotoImage(file=winaobj.FRAME)
@@ -29,6 +29,7 @@ wipe_data = PhotoImage(file=winaobj.WIPE_DATA)
 search_gsi = PhotoImage(file=winaobj.SEARCH_GSI)
 product = PhotoImage(file=winaobj.PRODUCT)
 logo = PhotoImage(file=winaobj.LOGO)
+logoR = PhotoImage(file=winaobj.LOGOR)
 attetion = PhotoImage(file=winaobj.ATTETION)
 forpda = PhotoImage(file=winaobj.FORPDA)
 customboot = PhotoImage(file=winaobj.CUSTOM_BOOTLOADER)

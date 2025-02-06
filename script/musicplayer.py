@@ -2,7 +2,7 @@ from pygame import mixer
 from os import listdir, path, remove
 from time import sleep
 from threading import Thread
-from settings import window_and_objects as winaobj
+from Userdata import window_and_objects as winaobj
 
 mixer.init()
 

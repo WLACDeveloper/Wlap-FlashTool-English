@@ -2,7 +2,7 @@ import wget
 import os
 import platform
 from script import imageload
-from settings import window_and_objects as winaobj
+from Userdata import window_and_objects as winaobj
 import shutil
 
 distr = ''
